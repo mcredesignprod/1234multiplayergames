@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Privacy Policy – 1234 Multiplayer</title>
+    <meta name="description" content="Privacy Policy for 1234 Multiplayer – Games & Anti-Stress Games.">
+    <meta name="theme-color" content="#FFF6E9">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Bungee&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --p1: #2F6BFF;
+            --p2: #FF4D5E;
+            --p3: #FFC531;
+            --p4: #22C08A;
+            --ink: #1B1E3C;
+            --ink-soft: #4B4F72;
+            --cream: #FFF6E9;
+            --line: #EADFCF
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            -webkit-text-size-adjust: 100%
+        }
+
+        body {
+            margin: 0;
+            background: var(--cream);
+            color: var(--ink);
+            font: 500 17px/1.65 "Baloo 2", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+            padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0) env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0)
+        }
+
+        .strip {
+            display: flex;
+            height: 8px
+        }
+
+        .strip i {
+            flex: 1
+        }
+
+        .strip i:nth-child(1) {
+            background: var(--p1)
+        }
+
+        .strip i:nth-child(2) {
+            background: var(--p2)
+        }
+
+        .strip i:nth-child(3) {
+            background: var(--p3)
+        }
+
+        .strip i:nth-child(4) {
+            background: var(--p4)
+        }
+
+        .wrap {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 22px 16px 48px
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin: 6px 0 22px
+        }
+
+        .logo {
+            display: grid;
+            grid-template-columns: repeat(2, 26px);
+            gap: 5px;
+            flex: none
+        }
+
+        .logo span {
+            width: 26px;
+            height: 26px;
+            border: 3px solid var(--ink);
+            border-radius: 8px;
+            box-shadow: 0 3px 0 var(--ink);
+            display: grid;
+            place-items: center;
+            font: 12px/1 "Bungee", sans-serif;
+            color: #fff
+        }
+
+        .logo span:nth-child(1) {
+            background: var(--p3);
+            transform: rotate(-6deg)
+        }
+
+        .logo span:nth-child(2) {
+            background: var(--p2);
+            transform: rotate(4deg)
+        }
+
+        .logo span:nth-child(3) {
+            background: var(--p4);
+            transform: rotate(-4deg)
+        }
+
+        .logo span:nth-child(4) {
+            background: var(--p1);
+            transform: rotate(6deg)
+        }
+
+        .brand b {
+            display: block;
+            font: 20px/1.1 "Bungee", sans-serif;
+            letter-spacing: .02em
+        }
+
+        .brand small {
+            color: var(--ink-soft);
+            font-weight: 700;
+            font-size: 14px
+        }
+
+        .doc {
+            background: #fff;
+            border: 4px solid var(--ink);
+            border-radius: 26px;
+            box-shadow: 0 10px 0 var(--ink);
+            padding: 26px 22px 28px
+        }
+
+        .game {
+            display: inline-block;
+            margin: 0 0 10px;
+            padding: 2px 14px;
+            border-radius: 999px;
+            background: var(--ink);
+            color: #fff;
+            font-weight: 700;
+            font-size: 14px
+        }
+
+        h1 {
+            font: 30px/1.15 "Bungee", sans-serif;
+            margin: 4px 0 8px
+        }
+
+        .updated {
+            color: var(--ink-soft);
+            margin: 0 0 6px
+        }
+
+        h2 {
+            font: 19px/1.3 "Bungee", sans-serif;
+            color: var(--p1);
+            margin: 28px 0 6px;
+            padding-top: 16px;
+            border-top: 3px dashed var(--line)
+        }
+
+        h2:nth-of-type(4n+2) {
+            color: var(--p2)
+        }
+
+        h2:nth-of-type(4n+3) {
+            color: #D99A00
+        }
+
+        h2:nth-of-type(4n+4) {
+            color: var(--p4)
+        }
+
+        p {
+            margin: .5rem 0
+        }
+
+        ul {
+            margin: .4rem 0 .7rem;
+            padding-left: 1.25rem
+        }
+
+        li {
+            margin: .3rem 0
+        }
+
+        li::marker {
+            color: var(--p2)
+        }
+
+        strong {
+            font-weight: 800
+        }
+
+        a {
+            color: var(--p1);
+            font-weight: 700;
+            word-break: break-word
+        }
+
+        dl {
+            margin: 12px 0 6px
+        }
+
+        dl div {
+            border: 3px solid var(--ink);
+            border-radius: 16px;
+            padding: 10px 14px;
+            margin: 10px 0;
+            background: #FFFBF4
+        }
+
+        dt {
+            font-weight: 800
+        }
+
+        dd {
+            margin: 2px 0 0
+        }
+
+        .contact {
+            background: var(--p3);
+            border: 3px solid var(--ink);
+            border-radius: 16px;
+            box-shadow: 0 5px 0 var(--ink);
+            padding: 12px 16px;
+            margin: 12px 0
+        }
+
+        footer {
+            text-align: center;
+            color: var(--ink-soft);
+            font-size: 15px;
+            margin-top: 26px
+        }
+
+        footer nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 10px
+        }
+
+        footer nav a {
+            display: inline-block;
+            padding: 8px 18px;
+            border: 3px solid var(--ink);
+            border-radius: 999px;
+            box-shadow: 0 4px 0 var(--ink);
+            background: #fff;
+            color: var(--ink);
+            text-decoration: none
+        }
+
+        @media (max-width:480px) {
+            body {
+                font-size: 16px
+            }
+
+            .doc {
+                padding: 20px 16px 22px;
+                border-radius: 22px
+            }
+
+            h1 {
+                font-size: 25px
+            }
+
+            h2 {
+                font-size: 17px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="strip"><i></i><i></i><i></i><i></i></div>
+    <div class="wrap">
+        <header>
+            <div class="logo" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span></div>
+            <div class="brand"><b>1234 MULTIPLAYER</b><small>Games &amp; Anti-Stress Games</small></div>
+        </header>
+
+        <article class="doc">
+            <p class="game">1234 Multiplayer – Games &amp; Anti-Stress Games</p>
+            <h1>Privacy Policy</h1>
+            <p class="updated"><strong>Last updated:</strong> 25 October 2026</p>
+            <p>This Privacy Policy explains what information the <strong>1234 Multiplayer</strong> app (the “Game”,
+                “we”, “us”, “our”) handles, why, and the choices you have. It applies to the Game on Google Play
+                (package name com.playergameinfinite.game).</p>
+            <p>We handle information in line with Indian law, including the <strong>Digital Personal Data Protection
+                    Act, 2023</strong> (“DPDP Act”), the <strong>Information Technology Act, 2000</strong>, and the
+                <strong>Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data
+                    or Information) Rules, 2011</strong>.
+            </p>
+
+            <h2>1. Summary</h2>
+            <ul>
+                <li><strong>No sign-up, no login, no account.</strong> You can play everything without giving us your
+                    name, email or phone number.</li>
+                <li><strong>Your game data stays on your phone.</strong> Settings, player names, best scores and
+                    progress are saved only on your device.</li>
+                <li><strong>We use Google Analytics for Firebase</strong> to learn which games and features people use,
+                    so we can improve the Game. This data does not include your name or anything you type.</li>
+                <li><strong>We use Firebase Crashlytics</strong> to get a report when the Game crashes, so we can fix
+                    it (see section 4).</li>
+                <li><strong>The Game shows ads from Google AdMob</strong> to keep it free. To show and measure ads,
+                    Google may use your device’s Advertising ID and other device information (see section 8).</li>
+                <li><strong>We never sell your information.</strong></li>
+            </ul>
+
+            <h2>2. Information we do NOT collect</h2>
+            <p>We do not collect your name, email address, phone number, postal address, photos, videos, audio
+                recordings, contacts, files, precise (GPS) location, payment details, or any other information that
+                directly identifies you.</p>
+            <p>The Game does not use your camera, microphone, contacts or location.</p>
+
+            <h2>3. Information stored only on your device</h2>
+            <p>To make the Game work, it saves the following <strong>on your device only</strong>:</p>
+            <ul>
+                <li>Settings: language, music and sound on/off and volume, vibration, default bot level</li>
+                <li>Player names you type in (for example “Player 1”)</li>
+                <li>Best scores, the last game you played, and your place on the Home screen</li>
+            </ul>
+            <p>This information is <strong>never sent to us or to anyone else</strong>. It is deleted when you uninstall
+                the Game or clear its app data in your phone’s settings.</p>
+
+            <h2>4. Information collected by Google Analytics for Firebase</h2>
+            <p>The Game uses <strong>Google Analytics for Firebase</strong>, a service provided by Google LLC. When your
+                device is connected to the internet, it collects:</p>
+            <dl>
+                <div>
+                    <dt>App usage events</dt>
+                    <dd>Opening the Game, screens viewed, session length, and Game events such as a game started or
+                        finished, the game played, play mode (vs bot, 2–4 players or relax), number of players, bot
+                        level and settings changed.</dd>
+                </div>
+                <div>
+                    <dt>Device and app information</dt>
+                    <dd>Device model, Android version, app version, screen size, language and time zone.</dd>
+                </div>
+                <div>
+                    <dt>Identifiers</dt>
+                    <dd>A Firebase app instance ID (a random ID for this install of the Game), the Android device ID
+                        that Android gives this app (sent with each event and crash report as <em>device_id</em>), and,
+                        where your device provides one, the Android Advertising ID.</dd>
+                </div>
+                <div>
+                    <dt>Approximate location</dt>
+                    <dd>Country or region, worked out by Google from your IP address. We do not receive your IP address
+                        or precise location.</dd>
+                </div>
+            </dl>
+            <p><strong>Player names, scores you type, and anything that identifies you by name are never sent to
+                    analytics.</strong></p>
+            <p>Events are stored on the device and sent in batches when an internet connection is available.</p>
+            <p><strong>How long it is kept:</strong> Analytics data is kept for up to 14 months and then deleted
+                automatically by Google.</p>
+            <p><strong>Where it is processed:</strong> Google may process this data on servers outside India. Google
+                protects it under its own security standards and data processing terms.</p>
+            <p>Google’s privacy policy: <a
+                    href="https://policies.google.com/privacy">policies.google.com/privacy</a><br>How Google uses data
+                from apps: <a
+                    href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>
+            </p>
+
+            <h3>Crash reports (Firebase Crashlytics)</h3>
+            <p>The Game also uses <strong>Firebase Crashlytics</strong>, provided by Google LLC. If the Game crashes,
+                a report is sent the next time you open it with an internet connection. A crash report contains:</p>
+            <ul>
+                <li>Technical details of the crash (which part of the Game’s code stopped working)</li>
+                <li>Device model, Android version, app version, and whether the Game was in front or in the background</li>
+                <li>The device ID described above, the screen and game being played, its play mode and bot level</li>
+                <li>A short list of the last things that happened in the Game before the crash, such as the events in
+                    the table above</li>
+            </ul>
+            <p>Crash reports never contain player names or anything you type. They are kept by Google for up to 90
+                days.</p>
+
+            <h2>5. Why we use this information</h2>
+            <p>We use analytics information and crash reports only to:</p>
+            <ul>
+                <li>Find and fix crashes and errors</li>
+                <li>Understand which games and features are used, so we can improve them</li>
+                <li>Find problems (for example, a game that people often quit early)</li>
+                <li>Make sure the Game works well on different phones and Android versions</li>
+            </ul>
+            <p>We do <strong>not</strong> use analytics information to build marketing profiles, and we do
+                <strong>not</strong> use it to contact you. Advertising data is handled by Google AdMob as described in
+                section 8.
+            </p>
+
+            <h2>6. Internet use</h2>
+            <p>All games work <strong>fully offline</strong>. The Game only uses the internet to:</p>
+            <ul>
+                <li>Send analytics events and crash reports (section 4) when a connection is available</li>
+                <li>Load and show ads (section 8). Without internet, no ads are shown and the games still work.</li>
+                <li>Open this Privacy Policy and the Terms &amp; Conditions pages from Settings</li>
+            </ul>
+
+            <h2>7. Sharing of information</h2>
+            <ul>
+                <li>We share analytics information and crash reports only with <strong>Google (Firebase)</strong>,
+                    which processes them for us.</li>
+                <li>Advertising data is collected and used directly by <strong>Google AdMob</strong> and, where you
+                    allow it, its certified ad partners, under Google’s policies (section 8).</li>
+                <li>We may disclose information if required by Indian law, a court order or a government authority.</li>
+                <li>We do <strong>not</strong> sell, rent or trade your information, and we do not give it to data
+                    brokers.</li>
+            </ul>
+
+            <h2>8. Advertising</h2>
+            <p>The Game is free, and it shows ads from <strong>Google AdMob</strong>, an advertising service of Google
+                LLC, to support its development.</p>
+            <p><strong>Where ads appear:</strong></p>
+            <ul>
+                <li>A full-screen ad after a game, once you leave the score screen, and sometimes before a game starts
+                </li>
+                <li>A small banner ad on menu screens (Home, Settings, Pause and Results)</li>
+                <li>Never while you are playing a game</li>
+            </ul>
+            <p><strong>Information Google AdMob may collect</strong> to show ads, measure them and prevent fraud:</p>
+            <dl>
+                <div>
+                    <dt>Advertising ID</dt>
+                    <dd>Your device’s Android Advertising ID, a resettable ID used for ads.</dd>
+                </div>
+                <div>
+                    <dt>Device and app information</dt>
+                    <dd>Device model, Android version, language, app version and network type.</dd>
+                </div>
+                <div>
+                    <dt>Approximate location</dt>
+                    <dd>Country or region, worked out from your IP address. Precise (GPS) location is not used.</dd>
+                </div>
+                <div>
+                    <dt>Ad interactions</dt>
+                    <dd>Which ads were shown, and whether you tapped or closed them.</dd>
+                </div>
+            </dl>
+            <p><strong>Personalised and non-personalised ads:</strong> Ads may be personalised based on your interests,
+                which Google works out from your Advertising ID and activity, or non-personalised, which are based only
+                on general information such as the app and your approximate region.</p>
+            <p><strong>Consent (Europe, UK and other regions where required):</strong> Before any ad data is used, the
+                Game shows Google’s consent form, and you can accept or refuse personalised ads.</p>
+            <p><strong>Your ad choices:</strong></p>
+            <ul>
+                <li>Reset or delete your Advertising ID, or opt out of personalised ads, in your phone’s settings:
+                    <strong>Settings → Google → Ads</strong> (the menu names can differ by phone).
+                </li>
+                <li>Uninstall the Game to stop all ads and ad data collection.</li>
+            </ul>
+            <p>We do not receive your personal information from Google AdMob, and we do not sell your information to
+                advertisers.</p>
+            <p>How Google uses information from apps that show its ads: <a
+                    href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a><br>Google’s
+                advertising policies: <a
+                    href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></p>
+
+            <h2>9. Children</h2>
+            <p>The Game is family-friendly and made for a general audience. We do not knowingly collect personal data
+                that identifies a child, and no part of the Game asks for it.</p>
+            <p>Under the DPDP Act, anyone under 18 is a child. <strong>If you are under 18, please play with the
+                    permission and supervision of a parent or guardian.</strong> A parent or guardian can contact us at
+                any time (section 12) to ask about, or delete, data linked to a child’s device.</p>
+            <p>Our ads are set to show only content suitable for a general audience. We do not knowingly allow
+                personalised ads for children. A parent or guardian can turn off personalised ads in the device’s
+                settings (Settings → Google → Ads).</p>
+
+            <h2>10. Security</h2>
+            <p>We take reasonable security measures as required by Indian law. Analytics and ad data is encrypted while
+                it is sent to Google, and only authorised people can access our Firebase project. No method of storing
+                or sending data is completely secure, but we work to protect the information we handle.</p>
+
+            <h2>11. Your rights and choices</h2>
+            <p>Under the DPDP Act and other applicable law, you can:</p>
+            <ul>
+                <li><strong>Ask</strong> what information about you we process</li>
+                <li><strong>Ask us to correct or delete</strong> it</li>
+                <li><strong>Withdraw consent</strong> at any time. Withdrawing consent stops future collection; it does
+                    not undo what was lawfully collected before.</li>
+                <li><strong>Raise a grievance</strong> with us, and if you are not satisfied, with the <strong>Data
+                        Protection Board of India</strong></li>
+                <li><strong>Nominate</strong> a person to use these rights for you if you die or cannot use them
+                    yourself</li>
+            </ul>
+            <p><strong>Simple choices you have right now:</strong></p>
+            <ul>
+                <li><strong>Stop all collection:</strong> uninstall the Game. Data saved on your device is deleted, and
+                    no more analytics or ad data is sent.</li>
+                <li><strong>Limit ads:</strong> opt out of personalised ads in Android Settings → Google → Ads, or
+                    refuse personalised ads in the consent form where it is shown.</li>
+                <li><strong>Clear local data:</strong> Android Settings → Apps → 1234 Multiplayer → Storage → Clear
+                    data.</li>
+                <li><strong>Reset your Advertising ID:</strong> Android Settings → Google → Ads.</li>
+            </ul>
+            <p>The Game has no account, so we cannot see your name. To make a request, email us from the address you
+                want us to reply to. If possible, include your phone model and roughly when you played, so we can find
+                the data.</p>
+
+            <h2>12. Contact and Grievance Officer</h2>
+            <p>For any question, request or complaint about privacy:</p>
+            <div class="contact">
+                <p><br>Email: <a href="mailto:mcredesignprod@gmail.com">mcredesignprod@gmail.com</a></p>
+            </div>
+            <p>We will acknowledge your message within <strong>72 hours</strong> and try to resolve it within <strong>30
+                    days</strong>.</p>
+
+            <h2>13. Changes to this policy</h2>
+            <p>We may update this Privacy Policy from time to time. When we do, we will change the “Last updated” date
+                at the top. If a change is important, for example a new type of data or a new ad partner, we will tell
+                you in the Game before it takes effect.</p>
+
+            <h2>14. Governing law</h2>
+            <p>This Privacy Policy is governed by the laws of India. Subject to your rights under applicable law, the
+                courts of India have jurisdiction over any dispute arising from it.</p>
+        </article>
+
+        <footer>
+            <nav><a href="privacy-policy.html">Privacy Policy</a><a href="terms-and-conditions.html">Terms &amp;
+                    Conditions</a></nav>
+            <p>© 2026 1234 Multiplayer · <a href="mailto:mcredesignprod@gmail.com">mcredesignprod@gmail.com</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
